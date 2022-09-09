@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import { FaGithub, FaTwitter } from 'react-icons/fa'
+import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'
 
 import styles from './styles.module.scss'
 
@@ -33,6 +33,9 @@ function Navbar() {
           </a>
           <a href='https://twitter.com/stban94diaz' target='_blank' rel="noreferrer">
             <FaTwitter className='cursor-pointer' size={30} />
+          </a>
+          <a href='https://www.linkedin.com/in/esteban-danilo-diaz-riascos/' target='_blank' rel="noreferrer">
+            <FaLinkedin className='cursor-pointer animate-bounce' color='#dc2626' size={30} />
           </a>
           <a href='https://platzi.com/p/stban94diazz/' target='_blank' rel="noreferrer">
             <Image

@@ -14,12 +14,14 @@ function Project({ project, className }: {
     <div className={`relative ${className}`}>
       <a
         className='absolute top-3 left-0 bg-gray-200 hover:bg-gray-300 p-1 rounded-full'
-        href={project.repo}>
+        href={project.repo}
+        target='_blank' rel="noreferrer">
         <FaGithub size={20} />
       </a>
       <a
         className='absolute top-3 right-0 bg-gray-200 hover:bg-gray-300 p-1 rounded-full'
-        href={project.deploy}>
+        href={project.deploy}
+        target='_blank' rel="noreferrer">
         <FaExternalLinkAlt size={20} />
       </a>
       <h1 className='text-4xl mx-10 text-center'>
