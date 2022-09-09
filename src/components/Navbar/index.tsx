@@ -5,7 +5,7 @@ import styles from './styles.module.scss'
 
 function Navbar() {
   return (
-    <div className={styles.navbar}>
+    <div className={`${styles.navbar} mb-10`}>
       <div className='img m-auto align-middle'>
         <Image
           src='/esteban.jpeg'
@@ -15,19 +15,19 @@ function Navbar() {
           alt='Esteban Danilo Diaz Riascos' />
       </div>
       <div className='info'>
-        <h1 className='text-8xl font-bold'>
+        <h1 className='md:text-5xl lg:text-8xl font-bold text-right'>
           Portafolio
         </h1>
-        <h1 className='text-3xl font-bold'>
+        <h1 className='text-3xl font-bold text-right'>
           Esteban Danilo Diaz Riascos
         </h1>
-        <h1 className='text-xl'>
+        <h1 className='text-xl text-right'>
           stban94diaz@gmail.com
         </h1>
-        <h1 className='text-xl'>
+        <h1 className='text-xl text-right'>
           esteban.diaz@avaldigitallabs.com
         </h1>
-        <div className='flex gap-3'>
+        <div className='flex gap-3 justify-end'>
           <a href='https://github.com/stban94diaz' target='_blank' rel="noreferrer">
             <FaGithub className='cursor-pointer' size={30} />
           </a>
