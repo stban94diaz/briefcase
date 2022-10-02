@@ -33,6 +33,13 @@ const projectsData = [
     description: 'Deploy, Document, Custom API, Integrate API, Create getData.js function, Add styles, Create the project components',
     deploy: 'https://stban94diaz.github.io/react-eth-challenge/',
     repo: 'https://github.com/stban94diaz/react-eth-challenge'
+  },
+  {
+    name: 'Vue - basic concepts',
+    object: 'Practice using Vue framework with interesting features of 3.x version',
+    description: 'Deploy, Document and practice basic concepts of this framework.',
+    deploy: 'https://vue-basic-concepts.vercel.app/',
+    repo: 'https://github.com/stban94diaz/vue-basic-concepts'
   }
 ]
 
